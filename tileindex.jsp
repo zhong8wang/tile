@@ -4,90 +4,14 @@
 	<meta charset="utf-8">
 	<title>万瓷网</title>
 	<link rel="stylesheet" type="text/css" href="bs/css/bootstrap.min.css">
+	<!-- 主页CSS样式的添加 -->
+	<link rel='stylesheet' type="text/css" href="bs/css/tileindex_CSS.css">
+	<!-- shopTop滚动条样式添加 -->
 	<link rel="stylesheet" type="text/css" href="bs/css/lrtk.css">
 	<script type="text/javascript" src="bs/js/jquery.min.js"></script>
 	<script type="text/javascript" src="bs/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="bs/js/holder.min.js"></script>
 	<script type="text/javascript" src="bs/js/lrscroll.js"></script>
-	<style type="text/css">
-		.page-header {
-			background-color: #fff
-		}
-		.content {
-			margin-top: 10px;
-		}
-
-		.container{
-			padding: 0px 15px;
-			margin: 0 auto;
-		}
-
-		.carousel{
-			height: 500px;
-			overflow: hidden;
-			position: relative;
-		}
-		.image_reel{
-			position: absolute;
-			left: 0px;
-			top: 0px;
-		}
-		.image_reel img{
-			float: left;
-		}
-		.paging{
-			position: absolute;
-			bottom: 20px;
-			right: 30px;
-			display: none;
-		}
-		.paging a{
-			text-decoration: none;
-			color: #fff;
-			padding: 3px 8px;
-		}
-		.paging a:hover{
-			background: #920000;
-			font-weight: bold;
-		}
-		.paging a.active{
-			background: #920000;
-			font-weight: bold;
-		}
-
-		.showtile {
-			margin-top: 10px;
-		}
-		.logo {
-			width: 165px;
-			height: 165px;
-			margin-top: 40px;
-		}
-		.shopTop {
-			height: 250px;
-			padding-top: 0px;
-		}
-		.topHead {
-			margin: 0px 0px 10px 0px;
-		}
-
-		.tilename {
-			margin-top: 10px;
-		}
-
-		.news {
-			margin-top: 10px;
-		}
-
-		.links {
-			margin-top: 10px;
-			height: 150px;
-		}
-		.footer {
-			margin-top: 10px;
-		}
-
-	</style>
 </head>
 <body>
 	<div class="head">
@@ -766,28 +690,127 @@
 			<div class="news">
 				<div class="row">
 					<div class="col-md-6">
-						<img src="holder.js/100px400">
+						<div class="web_info"><!-- 网站资讯 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="row">
+										<div class="col-md-6">
+											网站资讯
+										</div>
+										<div class="col-md-6">
+											<h6 class="pull-right">更多信息<span class="glyphicon glyphicon-plus"></span></h6>
+										</div>
+									</div>
+								</div>
+								<div class="panel-body">
+									<table class="table table-hover" style="table-layout: fixed;">
+										<tr>
+											<td class="web_infonumber">1</td>
+											<td class="web_infotitle">自然、健康、环保 四大主流瓷砖闪耀2015博洛尼亚陶瓷卫浴展览会</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">2</td>
+											<td class="web_infotitle">以独特的专业视角诠释空间艺术美感 ——资深设计师梁娜的设计追逐路</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">3</td>
+											<td class="web_infotitle">绿色建材再上紧箍咒，瓷砖企业如何布局？</td>
+											<td><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">4</td>
+											<td class="web_infotitle">瓷砖未来大势先知 一线品牌退一步粉身碎骨</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">5</td>
+											<td class="web_infotitle">瓷砖行业面临产能过剩 内外环境影响企业发展</td>
+											<td><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">6</td>
+											<td class="web_infotitle">绿色建材再上紧箍咒，瓷砖企业如何布局？</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">7</td>
+											<td class="web_infotitle">四大主流瓷砖闪耀2015博洛尼亚陶瓷卫浴展览会</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+										<tr>
+											<td class="web_infonumber">8</td>
+											<td class="web_infotitle">瓷砖行业面临产能过剩</td>
+											<td class="web_infotime"><span class="pull-right">2018-4-10</span></td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-6">
-						<img src="holder.js/100px400">
+						<div class="company_info"><!-- 企业信息 -->
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<div class="row">
+										<div class="col-xs-6">
+											企业信息
+										</div>
+										<div class="col-sm-6">
+											<h6 class="pull-right">更多信息<span class="glyphicon glyphicon-plus"></span></h6>
+										</div>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="thumbnail">
+												<img src="holder.js/100px150">
+												<div class="caption">
+													<h3>万瓷网今天上线了</h3>
+													<p>上线了，我们的老板很开心，因为要赚钱了，上线了，心...</p>
+													<p style="text-align:right">查看详情</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="thumbnail">
+												<img src="holder.js/100px150">
+												<div class="caption">
+													<h3>万瓷网今天上线了!</h3>
+													<p>上线了，我们的老板很开心，因为要赚钱了，上线了，心...</p>
+													<p style="text-align:right">查看详情</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="links">
-		<div class="container">
-			<img src="holder.js/100px150">
-		</div>
-	</div>
-	<div class="footer">
-		<div class="container">
-			<div class="">
-				<img src="holder.js/100px200">
+			<div class="footer">
+		<div class="footer_head">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="links">
+						
+					</div>
+				</div>
+				<div class="col-md-6">
+					
+				</div>
 			</div>
-			
+		</div>
+		<div class="footer_buttom">
+			<p>Copyright © 2018-2020 ALL Right Reserved</p>
 		</div>
 	</div>
+		</div>
+	</div>
+	
 </body>
 
 <script>

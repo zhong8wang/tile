@@ -1,0 +1,122 @@
+.page-header {
+			background-color: #fff
+}
+.content {
+	margin-top: 10px;
+}
+
+.container{
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.carousel{
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+}
+.image_reel{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.image_reel img{
+	float: left;
+	width: auto;
+	height: 100%;
+}
+.paging{
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+	display: none;
+}
+.paging a{
+	text-decoration: none;
+	color: #fff;
+	padding: 3px 8px;
+}
+.paging a:hover{
+	background: #920000;
+	font-weight: bold;
+}
+.paging a.active{
+	background: #920000;
+	font-weight: bold;
+}
+
+.showtile {
+	margin-top: 10px;
+}
+.logo {
+	width: 165px;
+	height: 165px;
+	margin-top: 40px;
+}
+.shopTop {
+	height: 250px;
+	padding-top: 0px;
+}
+.topHead {
+	margin: 0px 0px 10px 0px;
+}
+
+.tilename {
+	margin-top: 10px;
+}
+
+.news {
+	margin-top: 10px;
+	height: 100%;
+}
+
+.web_info .panel-heading {
+	font-size: 20px;
+}
+
+.web_infonumber {
+	width: 10%;
+}
+
+.web_infotitle {
+	width: :65%;
+	 word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.web_infotime {
+	width: 25%;
+}
+
+.company_info {
+	height: 100%;
+}
+
+.company_info .panel-heading {
+	font-size: 20px;
+}
+
+.footer {
+	margin-top: 10px;
+	height: 300px;
+}
+
+.footer_head {
+	height: 210px;
+	background-color: #808080;
+}
+
+.footer_buttom {
+	height: 90px;
+	background-color: #444444;
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.panel{
+	height: 400px;
+}
